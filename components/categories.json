@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "Scripts & Telegram Bots",
+      "description": "Social & SMM, Essays, News, and more",
+      "icon": "code",
+      "badge": "Top 🔥",
+      "image": "https://cdn3.vectorstock.com/i/1000x1000/38/82/stylish-mobile-mockup-with-white-screen-vector-40293882.jpg"
+    },
+    {
+      "id": 2,
+      "title": "PDF Editing",
+      "description": "Edit, convert, and manage PDFs",
+      "icon": "pdf",
+      "badge": "New ✨",
+      "image": "https://cdn3.vectorstock.com/i/1000x1000/38/82/stylish-mobile-mockup-with-white-screen-vector-40293882.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Graphic Design",
+      "description": "Logos, branding, and more",
+      "icon": "design",
+      "badge": "Popular 💼",
+      "image": "https://cdn3.vectorstock.com/i/1000x1000/38/82/stylish-mobile-mockup-with-white-screen-vector-40293882.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Copywriting",
+      "description": "Blogs, articles, product descriptions",
+      "icon": "write",
+      "badge": "",
+      "image": "https://cdn3.vectorstock.com/i/1000x1000/38/82/stylish-mobile-mockup-with-white-screen-vector-40293882.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Web Development",
+      "description": "Full-stack development services",
+      "icon": "web",
+      "badge": "Top Rated ⭐",
+      "image": "https://cdn3.vectorstock.com/i/1000x1000/38/82/stylish-mobile-mockup-with-white-screen-vector-40293882.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Marketing",
+      "description": "Digital marketing, social media campaigns",
+      "icon": "marketing",
+      "badge": "",
+      "image": "https://cdn3.vectorstock.com/i/1000x1000/38/82/stylish-mobile-mockup-with-white-screen-vector-40293882.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Content Creation",
+      "description": "Video editing, podcast production, and more",
+      "icon": "content",
+      "badge": "",
+      "image": "https://cdn3.vectorstock.com/i/1000x1000/38/82/stylish-mobile-mockup-with-white-screen-vector-40293882.jpg"
+    }
+]
