@@ -1,6 +1,5 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import Navbar from '../components/NavBar.jsx'
 import HeroSection from '../components/HeroSection.jsx'
@@ -11,9 +10,13 @@ import PopularProjects from '../components/PopularProjects.jsx'
 import ComparisonTable from '../components/ComparisionTable.jsx'
 import JoinNowSection from '../components/JoinNowSection.jsx'
 import Footer from '../components/Footer.jsx'
+import FAQSection from '../components/FAQSection.jsx'
+import BelowFooter from '../components/BelowFooter.jsx'
+
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
+    <>
     <Navbar/>
     <HeroSection/>
     <Categories/>
@@ -22,6 +25,9 @@ createRoot(document.getElementById('root')).render(
     <PopularProjects/>
     <ComparisonTable/>
     <JoinNowSection/>
+    <FAQSection/>
     <Footer/>
-  </StrictMode>,
+    <BelowFooter/>
+    </>
+  // </StrictMode>,
 )

@@ -11,8 +11,8 @@ const Navbar = () => {
     <nav className="bg-white shadow-md p-4 flex items-center justify-between">
       {/* Left Section: Logo with Image */}
       <div className="flex items-center space-x-2">
-        <img src={mainlogo} alt="Logo" className="h-8 w-8" />
-        <h1 className="text-xl text-black font-bold">AIsistant</h1>
+        <img src={mainlogo} alt="Logo" className="h-8 w-8 cursor-pointer" />
+        <h1 className="text-xl text-black font-bold cursor-pointer">AIsistant</h1>
       </div>
 
       {/* Middle Section: Search Bar */}
@@ -22,9 +22,10 @@ const Navbar = () => {
           placeholder="Search for services..."
           className="w-full px-4 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
-        <span className="absolute right-3 top-2 text-gray-600">
-          <FiSearch />
-        </span>
+        <span className="absolute right-3 top-2 flex justify-center w-10 h-10 text-gray-600 cursor-pointer">
+  <FiSearch className="w-6 h-6" />
+</span>
+
       </div>
 
       {/* Hamburger Menu for Smaller Screens */}
@@ -43,7 +44,7 @@ const Navbar = () => {
           <img
             src="https://image.tensorartassets.com/cdn-cgi/image/w=600/posts/images/678368472400546952/6550e471-74f2-47a9-bbd0-5cd4ae2b79c8.jpg"
             alt="Profile"
-            className="h-8 w-8 rounded-full"
+            className="h-8 w-8 rounded-full cursor-pointer"
           />
         </div>
       </div>
