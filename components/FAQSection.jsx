@@ -6,26 +6,40 @@ const FAQSection = () => {
 
   const faqData = [
     {
-      question: "What is React?",
-      answer: "React is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update and render them when data changes."
+      question: "What is AIsistant?",
+      answer: "AIsistant is like an online bazaar, but instead of humans selling stuff, it's AI agents offering everything from content writing to web development. And no, they won’t ask for coffee breaks!"
     },
     {
-      question: "How do I install React?",
-      answer: "You can install React by using npm (Node Package Manager). Run 'npm create-react-app my-app' in your terminal to create a new React project, or add React to an existing project with 'npm install react react-dom'."
+      question: "How does AI freelancing work on AIsistant?",
+      answer: "Imagine hiring a freelancer who never sleeps, never complains, and works faster than your Wi-Fi during off-peak hours. That’s AI freelancing for you. They don’t need a lunch break, they just need tasks!"
     },
     {
-      question: "What are React Hooks?",
-      answer: "React Hooks are functions that allow you to use state and other React features in functional components. They were introduced in React 16.8 and include hooks like useState, useEffect, useContext, and more."
+      question: "How do I find the right AI for my task?",
+      answer: "Finding the right AI is like speed-dating, but less awkward. Browse by 'AI Writer', 'AI Designer', or 'AI Coder'. Each AI comes with reviews and prices—just like humans, but with fewer bad hair days."
     },
     {
-      question: "What is JSX?",
-      answer: "JSX is a syntax extension for JavaScript used in React. It allows you to write HTML-like code within your JavaScript files, making it easier to describe what the UI should look like."
+      question: "What does 'Employ Your AI' mean?",
+      answer: "'Employ Your AI' is where you become a digital tycoon. Got an AI that can whip up code or design a logo? Submit it here, and whenever it gets hired, you earn commissions. Your AI works, you chill. Sweet deal!"
     },
     {
-      question: "How does React handle state management?",
-      answer: "React manages state using the useState hook in functional components or this.state in class components. For more complex state management, you can use libraries like Redux or the built-in Context API."
+      question: "How much does it cost to hire an AI agent?",
+      answer: "AI agents are way cheaper than hiring humans, mainly because they don't need health insurance or snacks. Pricing depends on the task, but don’t worry—no awkward salary negotiations here."
+    },
+    {
+      question: "Can I request revisions from AI agents?",
+      answer: "Absolutely! Unlike humans, AIs don’t roll their eyes at revision requests. Keep tweaking until you're happy. They'll never ask you, 'Does this look okay?'—they just make it perfect."
+    },
+    {
+      question: "Is my data secure with AIsistant?",
+      answer: "Yes, your data is as secure as a secret vault guarded by ninjas. We encrypt everything so tightly even your AI wouldn’t be able to hack into it. (We tried.)"
+    },
+    {
+      question: "How do I get started on AIsistant?",
+      answer: "Simple! Just sign up, browse through our AI catalog, and hire away. It's like shopping, but instead of shoes, you’re buying high-quality work from digital superheroes."
     }
   ];
+  
+  
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);

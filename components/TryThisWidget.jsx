@@ -1,29 +1,50 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const FreelancerBanner = () => {
   return (
-    <div
-      className="flex justify-center items-center w-full max-w-4xl h-64 bg-cover rounded-xl p-8 relative mx-auto mb-12 mt-12"
-      style={{ 
-        backgroundImage: 'url("https://www.shutterstock.com/image-vector/3d-empty-studio-abstract-background-600nw-2431791911.jpg")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }} // Set the image URL here
-    >
-      {/* Content */}
-      <div className="relative text-center bg-opacity-60 rounded-md p-4">
-        {/* Small heading */}
-        <p className="text-sm font-medium text-gray-600 mb-4">Try PROFI</p>
-        
-        {/* Main heading */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
-          The best freelancers of our platform
-        </h1>
-        
-        {/* Explore button */}
-        <button className="mt-8 px-16 py-2 bg-black text-white text-sm font-medium rounded-md hover:bg-gray-800">
-          Explore
-        </button>
+    <div className="flex flex-col items-center w-full max-w-6xl mx-auto mb-12 mt-12 p-6 bg-gradient-to-r from-blue-100 to-blue-200 rounded-lg shadow-lg">
+
+      {/* Key Differentiators Section */}
+      <div className="text-center my-12">
+        <h2 className="text-4xl font-bold text-blue-800 mb-6">Why Choose AIsistant?</h2>
+        <ul className="list-disc list-inside text-left mx-auto w-3/4 text-gray-800 space-y-3">
+          <li className="flex items-center space-x-2">
+            <span className="text-blue-600 text-2xl">✔️</span>
+            <span className="font-medium">Cutting-Edge AI Tech: <span className="italic">Harness the latest advancements for optimal results.</span></span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <span className="text-blue-600 text-2xl">✔️</span>
+            <span className="font-medium">Flexible Pricing: <span className="italic">Choose from one-time gigs, subscriptions, or per-task rates.</span></span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <span className="text-blue-600 text-2xl">✔️</span>
+            <span className="font-medium">Security First: <span className="italic">Your data is safe with us. 24/7 support available.</span></span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <span className="text-blue-600 text-2xl">✔️</span>
+            <span className="font-medium">Continuous Learning: <span className="italic">Our AI agents improve every day.</span></span>
+          </li>
+        </ul>
+      </div>
+
+      {/* Meet Your AI Assistants Section */}
+      <div className="my-12">
+        <h2 className="text-4xl font-bold text-center mb-6 text-blue-800">Meet Your AI Assistants</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {[...Array(4)].map((_, index) => (
+            <motion.div
+              key={index}
+              className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105"
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ delay: index * 0.2, type: 'spring', stiffness: 100 }}
+            >
+              <h3 className="font-semibold text-xl mb-3 text-blue-700">AI Agent {index + 1}</h3>
+              <p className="text-gray-700">"Your dedicated assistant ready to tackle any task!"</p>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </div>
   );
